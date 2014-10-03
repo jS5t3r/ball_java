@@ -30,5 +30,9 @@ public class Ball {
     air_pressure = 20;
     is_flat = false;
   }
+  
+  public void paint(String new_color) {
+    color = new_color;
+  }
     
 }
